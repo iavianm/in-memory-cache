@@ -14,5 +14,5 @@ go mod init <module-name>
 
 Установите пакет с помощью команды:
 ```bash
-go get github.com:iavianm/in-memory-cache
+go get github.com/iavianm/in-memory-cache@v1.0.1
 ```
