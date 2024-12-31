@@ -7,6 +7,12 @@
 - `Delete(key string)` — удаление значения из кэша.
 
 ## Установка
+Если у вас ещё нет файла go.mod в проекте, создайте его:
+```bash
+go mod init <module-name>
+```
+
 Установите пакет с помощью команды:
 ```bash
-go get github.com:iavianm/Cache-Library
+go get github.com:iavianm/in-memory-cache
+```
