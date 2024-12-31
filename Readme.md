@@ -16,3 +16,17 @@ go mod init <module-name>
 ```bash
 go get github.com/iavianm/in-memory-cache@v1.0.1
 ```
+
+## Пример
+
+```go
+package main
+
+import (
+	cache "github.com/iavianm/in-memory-cache"
+)
+
+func main() {
+	// Create a new cache instance
+	cache := cache.New()
+}
